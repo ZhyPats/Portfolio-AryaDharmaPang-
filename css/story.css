@@ -1,0 +1,11 @@
+.image-container {
+  display:contents;
+  grid-template-columns: repeat(2, 1fr); /* Change to the desired number of columns */
+  grid-gap: 1px; /* Adjust the gap between divisions */
+  align-items: center;
+}
+
+.image-section {
+  border: 1px solid rgb(255, 255, 255); /* Add borders to the sections */
+  align-items: center;
+}
